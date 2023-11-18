@@ -33,7 +33,7 @@ def app(car_df):
 
     # Display box plot using the 'matplotlib.pyplot' module and the 'st.pyplot()' function.
     if 'Histogram' in plot_types:
-        st.subheader("Histogram")values.
+        st.subheader("Histogram")
         plt.figure(figsize = (12, 6))
         plt.title(f"Histogram for {columns}")
         columns = st.selectbox("Select the column to create its histogram",
